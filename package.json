@@ -1,0 +1,27 @@
+{
+  "name": "salary_calc_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bemeo1088/salary_calc_node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bemeo1088/salary_calc_node/issues"
+  },
+  "homepage": "https://github.com/bemeo1088/salary_calc_node#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  }
+}

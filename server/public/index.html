@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SALARY CALCULATION</title>
+    <script src="vendors/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="scripts/client.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <h1>EMPLOYEES SALARY CALCULATION</h1>
+    <div class="container">
+        <div class="main">
+            <table id="form" class="table tab 1">
+                <tr>
+                    <td>
+                        <label id="firstName">First Name</label>
+                    </td>
+                    <td>
+                        <input class="input" id="fname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="lastName">Last Name</label>
+                    </td>
+                    <td>
+                        <input class="input" id="lname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="idNumber">ID Number</label>
+                    </td>
+                    <td>
+                        <input class="input" id="id">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="jobTitle">Job Titile</label>
+                    </td>
+                    <td>
+                        <input class="input" id="title">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="annualSalary">Annual Salary</label>
+                    </td>
+                    <td>
+                        <input class="input" id="salary">
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <button type="button" id="submit">Submit</button>
+            <br>
+            <div class="averageCost">
+                <label id="averageCost">Average Monthly</label>
+                <input id="average">
+            </div>
+        </div>
+        <div class="table tab 2">
+            <table id="results" border="5">
+                <tr>
+                    <th colspan="2">
+                        <h3>
+                            <br>EMPLOYEES LIST</h3>
+                    </th>
+                </tr>
+                <tr id="header">
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>ID Number</th>
+                    <th>Job Title</th>
+                    <th>Annual Salary</th>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+
+</html>
